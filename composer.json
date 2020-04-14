@@ -1,0 +1,37 @@
+{
+    "name": "yosmy/phone-twilio-sms",
+    "description": "",
+    "require": {
+        "php": ">=7.2",
+        "yosmy/error": "@dev",
+        "yosmy/event": "@dev",
+        "yosmy/http": "@dev",
+        "yosmy/phone-sms": "@dev"
+    },
+    "require-dev": {
+        "symfony/debug": "~4",
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yosmy\\Phone\\": [
+                "src"
+            ]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yosmy\\Phone\\Test\\": [
+                "tests"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://php.yosmy.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
